@@ -1,0 +1,19 @@
+body {
+	background-image: url("../images/BG.png");
+	background-size: cover;
+	background-repeat: no-repeat center center fixed;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+	text-align: center;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 20px;
+}
