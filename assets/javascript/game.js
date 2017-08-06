@@ -7,7 +7,7 @@ var somethingArray=["sunset","mountain","cloud","tree","snow","sea"];
 function renderButtons(){
 	//emptying button panel
 	console.log(somethingArray);
-	$("#buttonsPanel").empty();
+	$(".row2").empty();
 	//looping through the array and dynamically creating a button to each element in the array
 	for(var i = 0; i < somethingArray.length; i++){
 		var button = $("<button>");
@@ -16,7 +16,7 @@ function renderButtons(){
 		button.text(somethingArray[i]);
 
 		//add button to HTML
-		$("#buttonPanel").append(button);
+		$(".row2").append(button);
 	}//end for loop
 } //end renderButtons
 
@@ -30,7 +30,7 @@ $("#add-something").on("click", function(event) {
 	var somthing = $("#something-input").val().trim();
 	//adding the text to the array in order to creat the button 
 	somethingArray.push(somthing);
-	$("#somthing-input").val("");
+	$("#something-input").val("");
 
 	renderButtons();
 
@@ -53,7 +53,7 @@ function fetchSomethingGifs() {
   	//get results from array
   	var dataArray = results.data;
   	//creat and display div elements for each one of the returned Gifs
-  	$("#gifCol").empty();
+  	$(".row3").empty();
     for (var i = 0; i < dataArray.length; i++) {
 
     	var newDiv = $("<div>");
@@ -70,7 +70,7 @@ function fetchSomethingGifs() {
      	 newDiv.append(img);
 
       // display ne gifs on the top 
-      $("#gifCol").append(newDiv);
+      $(".row3").append(newDiv);
     }//end for loop
 
   });//end function result
