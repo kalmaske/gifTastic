@@ -26,3 +26,16 @@ p{
 	text-align: center;
 }
 
+
+.somethingButton:hover {
+  background-color: #8BACB1;
+}
+
+#add-something:hover {
+	background-color: #8BACB1;
+}
+
+.somethingButton:active {
+  background-color: #88acb1;
+
+}
