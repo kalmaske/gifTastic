@@ -17,3 +17,12 @@ h1{
 p{
 	font-size: 20px;
 }
+
+#add-something,
+.somethingButton{
+	background-color: #6E989E;
+	color:#FCF5EB;
+	margin: 5px;
+	text-align: center;
+}
+
