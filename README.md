@@ -14,3 +14,4 @@ Under every gif, the rating is displayed(PG, G, so on).
 
 There is a user input box that adds buttons on the page.
 
+https://kalmaske.github.io/gifTastic/
